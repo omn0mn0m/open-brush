@@ -3271,6 +3271,30 @@ MonoBehaviour:
     m_Key: POPUP_RECORD_UNSUPPORTED_TEXT
     m_Metadata:
       m_Items: []
+  - m_Id: 165770796082696192
+    m_Key: QUIZ_TEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165771484036632576
+    m_Key: QUIZ_CREATE_TEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165771489669582848
+    m_Key: QUIZ_TAKE_TEST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165771823410352128
+    m_Key: QUIZ_ADMIN_TEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165772044202708992
+    m_Key: QUIZ_STATS_TEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165774124120313856
+    m_Key: QUIZ_STUDENT_TEXT
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

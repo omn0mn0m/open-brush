@@ -1662,7 +1662,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 76131299773440000
-    m_Localized: Accounts
+    m_Localized: Enter Password
     m_Metadata:
       m_Items: []
   - m_Id: 76134950436921344
@@ -3101,7 +3101,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 106429517453328384
-    m_Localized: "Background Images"
+    m_Localized: Background Images
     m_Metadata:
       m_Items: []
   - m_Id: 95221400803737600
@@ -3457,9 +3457,33 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 151490030713540608
-    m_Localized: 'You can create a video of your sketch by opening it on a Mac or PC.
-      Search for "Exporting video" on our docs website: https://docs.openbrush.app
+    m_Localized: 'You can create a video of your sketch by opening it on a Mac or
+      PC. Search for "Exporting video" on our docs website: https://docs.openbrush.app
       for a step by step guide.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165770796082696192
+    m_Localized: Quiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165771484036632576
+    m_Localized: Create Quiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165771489669582848
+    m_Localized: Take Quiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165771823410352128
+    m_Localized: Admin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165772044202708992
+    m_Localized: Quiz Statistics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165774124120313856
+    m_Localized: Student
     m_Metadata:
       m_Items: []
   references:

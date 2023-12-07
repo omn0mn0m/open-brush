@@ -143,6 +143,12 @@ namespace TiltBrush
             SignOutConfirm,
             ReadOnlyNotice,
             ShowContribution,
+            QuizAdminLogin,
+            QuizStudentLogin,
+            QuizTitleText,
+            QuestionText,
+            EnterUsername,
+            EnterPassword,
 
             // Open Brush Reserved Enums 1000-1999
             LanguagePopup = 1000,
@@ -4545,6 +4551,34 @@ namespace TiltBrush
                         DismissPopupOnCurrentGazeObject(false);
                         break;
                     }
+                case GlobalCommands.EnterUsername:
+                    {
+                        var username = KeyboardPopUpWindow.m_LastInput;
+                        QuizAccount.m_Instance.username = username;
+                        break;
+                    }
+
+                case GlobalCommands.EnterPassword:
+                    {
+                        var password = KeyboardPopUpWindow.m_LastInput;
+                        QuizAccount.m_Instance.password = password;
+                        break;
+                    }
+
+                case GlobalCommands.QuestionText:
+                    {
+                        var questionText = KeyboardPopUpWindow.m_LastInput;
+                        QuizQuestionPanel.m_Instance.questionText = questionText;
+                        break;
+                    }
+
+                case GlobalCommands.QuizTitleText:
+                    {
+                        var titleText = KeyboardPopUpWindow.m_LastInput;
+                        QuizCreatePanel.m_Instance.quizTitle = titleText;
+                        break;
+                    }
+
                 case GlobalCommands.RenameLayer:
                     {
                         var layer = App.Scene.GetCanvasByLayerIndex(iParam1);

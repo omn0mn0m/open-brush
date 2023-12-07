@@ -2117,6 +2117,16 @@ namespace TiltBrush
             return Path.Combine(UserPath(), "Sketches");
         }
 
+        static public string UserQuizPath()
+        {
+            return Path.Combine(UserPath(), "Quiz");
+        }
+
+        static public string UserQuizAuthPath()
+        {
+            return Path.Combine(UserPath(), "Quiz/Authentication.csv");
+        }
+
         static public string AutosavePath()
         {
             return Path.Combine(UserPath(), "Sketches/Autosave");

@@ -3,7 +3,11 @@ guid: 5785477867a0c3749a9c86a72072ce03
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - m_ButtonTexture: {instanceID: 0}
+  - m_ToggleOnTexture: {instanceID: 0}
+  - m_LinkedUIObject: {instanceID: 0}
+  - m_IconRenderer: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
